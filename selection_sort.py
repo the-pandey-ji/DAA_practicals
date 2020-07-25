@@ -10,7 +10,7 @@ for i in range(len(arr)):
         if arr[minIndex] > arr[j]:
             minIndex = j
 
-        # Swap  minimum value element with the first element
+        # Swap  minimum value element with the first  element
     arr[i], arr[minIndex] = arr[minIndex], arr[i]
 
 print("Sorted array")
